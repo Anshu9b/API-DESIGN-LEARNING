@@ -1,0 +1,14 @@
+->CORS(Cors origin resource sharing) ia an HTTP- header  based mechanism that allows a server to indicate any origins.(domain, scheme or port).
+->Relies on mechanism - browsers make a preflight request to the server hosting .
+-> -> Headers send with http method.
+-> An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses fetch() to make a request for https://domain-b.com/data.json.
+->Eg in Js to fetch json content from https://bar.otehr-> 
+const fetchprOMISE = fetch("HTTPS://BAR.OTHER");
+fetchPromise
+.then((response)= > respoinse.json())
+.then((data))=>
+{
+    console.log(gata);
+}
+-> htpps has various indiviuals - client=proxies= server.
+-> 

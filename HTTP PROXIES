@@ -1,0 +1,46 @@
+->Web browser and the server no of computers and machines relay the HTTP messages.Operate at the transport, network or physical levels.
+-> Application Layer = proxoes are working.
+-> Functions:
+ 1. Caching
+ 2. Filtering
+ 3.load balancing
+ 4.authentication
+-> HTTP flow:
+1.Open a TCP connection 
+2.sEND AN http MESSAGE
+Eg:  Request : GET / HTTP/1.1
+Host: developer.mozilla.org
+Accept-Language: fr
+
+Response : HTTP/1.1 200 OK
+Date: Sat, 09 Oct 2010 14:28:02 GMT
+Server: Apache
+Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+ETag: "51142bc1-7449-479b075b2891b"
+Accept-Ranges: bytes
+Content-Length: 29769
+Content-Type: text/html
+Code File+
+<!DOCTYPE html>… (here come the 29769 bytes of the requested web page)
+-> Apis based on HTTP :Fetch API : makes HTTP request using javascript.
+-> About Fetch API: The Fetch API uses Request and Response objects (and other things involved with network requests), as well as related concepts such as CORS and the HTTP Origin header semantics.
+
+->For making a request and fetching a resource, use the fetch() method. It is a global method in both Window and Worker contexts. This makes it available in pretty much any context you might want to fetch resources in.
+-> fetch () - clienst and XML 
+-> const header= "Getlocation.api()"
+{
+    if( js.write ()== changes.to.api())
+    {
+        fetch.url( "location.get(( status_code==OK(RETURN "TRUE")))
+        else
+        {
+            RETURN "FALSE";
+        }
+    }
+}
+-> json contains array not the xml so used
+-> indexing is used also 
+->  CORS contains third party libraries = to make the conten
+-> xml content is not used fetch api used 
+-> Parsing the text to DOM
+-json.parse()
